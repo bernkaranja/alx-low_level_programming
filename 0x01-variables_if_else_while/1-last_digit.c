@@ -1,9 +1,11 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
-
+/** 
+ * main - Prints random number to variable
+ *  
+ * Return: Always (Successful)
+ */
 int main(void)
 
 {
