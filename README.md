@@ -1,1 +1,1 @@
-this is a repo containg low level programming
+this is a repo containing low level programming
