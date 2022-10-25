@@ -4,14 +4,13 @@
  * _strlen - Function to find the length of a string
  * @str: The string to find length of
  * Return: Integer length of a string
- **/
+ */
 int _strlen(const char *str)
 {
 	int count = 0;
 
 	while (str[count])
 		count++;
-
 	return (count);
 }
 
@@ -20,8 +19,7 @@ int _strlen(const char *str)
  * @head: Pointer to first list element
  * @str: String
  * Return: Address of the new element, otherwise NULL
- **/
-
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *val;
@@ -31,11 +29,11 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		return (NULL);
 	}
-
 	val->next = *head;
 	val->str = strdup(str);
 	val->len = _strlen(str);
 
 	*head = val;
 	return (*head);
+
 }

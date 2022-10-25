@@ -1,2 +1,1 @@
-Readme file on singly linked lists
-
+README for a directory on singly linked lists
